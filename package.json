@@ -1,0 +1,30 @@
+{
+  "name": "navkar",
+  "version": "1.0.0",
+  "description": "Ecommerce Website For Navkar Selection",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^7.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.0.12",
+    "next-auth": "^4.24.8",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.7",
+    "passport": "^0.7.0",
+    "validator": "^13.12.0"
+  }
+}

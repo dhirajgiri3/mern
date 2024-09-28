@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.password-strength {
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.strength-0, .strength-1 {
+  background-color: #ffcccb;
+  color: #d8000c;
+}
+
+.strength-2 {
+  background-color: #ffeeaa;
+  color: #9f6000;
+}
+
+.strength-3 {
+  background-color: #e6f3ff;
+  color: #0073e6;
+}
+
+.strength-4, .strength-5, .strength-6 {
+  background-color: #dff2bf;
+  color: #4f8a10;
+}
